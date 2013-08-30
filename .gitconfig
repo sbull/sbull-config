@@ -1,0 +1,8 @@
+[color]
+	ui = true
+[core]
+	pager = less -FRSX
+	excludesfile = ~/.gitignore
+[user]
+	name = Steven Bull
+	email = steven@thebulls.us
