@@ -8,7 +8,6 @@ Linux (Ubuntu) config files.
 1. Clone (into your home directory?).
 
 2. Make symlinks to these files from your home directory (~), e.g.:
-
 ```
 ln -s ~/sbull-config/.bash_aliases ~
 ```
