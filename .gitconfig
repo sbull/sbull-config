@@ -6,3 +6,5 @@
 [user]
 	name = Steven Bull
 	email = steven@thebulls.us
+[push]
+	default = simple
