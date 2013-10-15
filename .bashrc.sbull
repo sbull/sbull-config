@@ -7,3 +7,4 @@ eval "$(rbenv init -)"
 EDITOR="emacs";
 
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+PATH="./node_modules/.bin:$PATH"
