@@ -1,7 +1,7 @@
 export LESS='-iXF';
 
 # https://github.com/sstephenson/rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/sbull-bin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 EDITOR="emacs";
