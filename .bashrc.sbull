@@ -8,3 +8,5 @@ EDITOR="emacs";
 
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
 PATH="./node_modules/.bin:$PATH"
+
+export PS1='\[\033[00;90m\]\t \w\$ \[\033[00m\]'
