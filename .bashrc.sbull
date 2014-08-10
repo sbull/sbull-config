@@ -10,3 +10,7 @@ EDITOR="emacs";
 PATH="./node_modules/.bin:$PATH"
 
 export PS1='\[\033[00;90m\]\t \w\$ \[\033[00m\]'
+
+# Append to history file before exiting (for sharing in screen and not losing on reboot).
+# http://superuser.com/questions/37576/can-history-files-be-unified-in-bash
+[ "$PROMPT_COMMAND" ] && PROMPT_COMMAND="$PROMPT_COMMAND;" ; PROMPT_COMMAND="${PROMPT_COMMAND}history -a"
