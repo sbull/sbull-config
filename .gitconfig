@@ -8,3 +8,5 @@
 	email = steven@thebulls.us
 [push]
 	default = simple
+[credential]
+	helper = cache
