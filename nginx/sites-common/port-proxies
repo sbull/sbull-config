@@ -29,7 +29,7 @@ server {
   ssl_certificate localhost.crt;
   ssl_certificate_key localhost.key;
 
-  include sites-available/common-https-proxy;
+  include sites-common/common-https-proxy;
 
   location / {
     proxy_read_timeout 300;

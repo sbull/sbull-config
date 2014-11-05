@@ -1,4 +1,4 @@
-include sites-available/common-https;
+include sites-common/common-https;
 
 proxy_set_header X-Forwarded-Proto $scheme;
 proxy_set_header X-Real-IP $remote_addr;
