@@ -1,13 +1,15 @@
 export LESS='-iXF';
+EDITOR="emacs";
 
 # https://github.com/sstephenson/rbenv
 export PATH="$HOME/sbull-bin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-EDITOR="emacs";
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
 
 [ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
-PATH="./node_modules/.bin:$PATH"
+
 
 export PS1='\[\033[00;90m\]\t \w\$ \[\033[00m\]'
 
