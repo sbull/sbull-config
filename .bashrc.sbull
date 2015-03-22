@@ -1,14 +1,14 @@
 export LESS='-iXF';
 EDITOR="emacs";
 
-# https://github.com/sstephenson/rbenv
-export PATH="$HOME/sbull-bin:$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM ### conflicts with node shim
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM
+# https://github.com/sstephenson/rbenv
+export PATH="$HOME/sbull-bin:$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 
 export PS1='\[\033[00;90m\]\t \w\$ \[\033[00m\]'
