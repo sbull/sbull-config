@@ -1,12 +1,7 @@
 export LESS='-iXF';
 EDITOR="emacs";
 
-[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh # This loads NVM ### conflicts with node shim
-
-# https://github.com/sstephenson/rbenv
-export PATH="$HOME/sbull-bin:$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
+export PATH="$HOME/sbull-bin:$PATH"
 
 export PS1='\[\033[00;90m\]\t \w\$ \[\033[00m\]'
 
