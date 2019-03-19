@@ -17,7 +17,7 @@
  '(indent-tabs-mode nil)
  '(js-indent-level 2)
  '(package-archives (quote (("melpa" . "https://melpa.org/packages/"))))
- '(package-selected-packages (quote (coffee-mode slim-mode)))
+ '(package-selected-packages (quote (coffee-mode php-mode web-mode slim-mode)))
  '(scss-compile-at-save nil)
  '(standard-indent 2))
 (custom-set-faces
@@ -26,3 +26,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+;; sbull manual additions
+(add-to-list 'auto-mode-alist '("/views/.*\\.php\\'" . web-mode))
