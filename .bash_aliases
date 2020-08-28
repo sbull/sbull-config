@@ -9,7 +9,8 @@ alias gs='git status';
 
 alias npm-exec='PATH=`npm bin`:$PATH'
 
-alias ss='spring stop && ps aux | grep spring' # Note override of /bin/ss
+# https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-docker.html
+alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
 
 
 if [ -f ~/.bash_aliases.local ]; then
