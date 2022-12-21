@@ -1,3 +1,6 @@
+# Prevent CTRL-s from freezing terminal.
+stty -ixon
+
 export LESS='-iXF';
 EDITOR="emacs";
 
