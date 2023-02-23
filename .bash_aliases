@@ -3,7 +3,7 @@ alias m='less';
 
 alias gd='git diff';
 alias gdc='git diff --cached';
-alias gg='git-grep-except-libs -i';
+alias gg='git grep -i';
 alias gl='git log -p';
 alias gs='git status';
 
